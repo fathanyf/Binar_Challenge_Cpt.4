@@ -1,4 +1,30 @@
+class Welcome{
 
+    setName(name){
+        this.name = name;
+    }
+
+    pegenalanGame(){
+        console.log('Selamat Datang di Game ' +this.name);
+    }
+
+    penciptaGame(){
+        console.log('Game '+this.name+' dibuat oleh Fathan Yuda F.');
+    }
+  }
+
+  class Game extends Welcome{
+      inspirasi(pengamalan){
+        console.log('Game '+this.name+' terispirasi dari '+pengamalan);
+      }
+      
+  }
+
+  let myGame = new Game();
+  myGame.setName('Pukul Kecoak');
+  myGame.pegenalanGame();
+  myGame.penciptaGame();
+  myGame.inspirasi('pengalaman buruk penulis dengan kecoa');
 
 
 
