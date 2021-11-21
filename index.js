@@ -2,6 +2,7 @@ class Welcome{
 
     setName(name){
         this.name = name;
+        alert('Selamat Datang di Game '+this.name);
     }
 
     pegenalanGame(){
@@ -25,6 +26,7 @@ class Welcome{
   myGame.pegenalanGame();
   myGame.penciptaGame();
   myGame.inspirasi('pengalaman buruk penulis dengan kecoa');
+
 
 
 
