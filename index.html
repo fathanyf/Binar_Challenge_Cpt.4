@@ -31,23 +31,5 @@
     </div>
     <script src="index.js"></script>
 
-    <script>
-        function Welcome(gameName, creatorName){
-            this.gameName = gameName;
-            this.creatorName = creatorName;
-
-            this.fullIntro = function(){
-                return `${this.gameName} ${this.creatorName}`
-            }
-            this.showIntro = function(){
-                document.write(this.fullIntro());
-            }
-        }
-
-        var person = new Person("Game Pukul Kecoak", "Fathan Yuda")
-        person.showIntro();
-        alert("Selamat Datang di ${this.gameName} oleh ${this.creatorName}");
-
-    </script>
 </body>
 </html>
