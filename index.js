@@ -3,6 +3,9 @@ class Welcome{
     setName(name){
         this.name = name;
         alert('Selamat Datang di Game '+this.name);
+        heading.innerHTML = 'Game ' +this.name;
+        heading.style.fontStyle = "oblique"
+        heading.style.backgroundColor = "Grey"
     }
 
     pegenalanGame(){
@@ -26,10 +29,6 @@ class Welcome{
   myGame.pegenalanGame();
   myGame.penciptaGame();
   myGame.inspirasi('pengalaman buruk penulis dengan kecoa');
-
-
-
-
 
 const score = document.querySelector(".score span");
 const holes = document.querySelectorAll(".hole");

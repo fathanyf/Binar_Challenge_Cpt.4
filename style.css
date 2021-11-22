@@ -13,7 +13,7 @@ body {
     justify-content: center;
 }
 
-.heading {
+#heading {
     font-size: 2em;
     margin: 1em 0;
     text-align: center;
@@ -35,9 +35,9 @@ body {
 .hole {
     position: relative;
     height: 80px;
-    width: 80px;
+    width: 100px;
     border-radius: 50%;
-    background-color: black;
+    background-image: url(karat.jpg);
     overflow: hidden;
 }
 
