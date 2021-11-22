@@ -16,6 +16,12 @@ body {
     height: 50vh;
     width: 40vh;
   }
+
+  #heading {
+      font-size: 20px;
+      padding-bottom: -50px;
+  }
+
   form {
     width: 100%;
     display: inline-block;
