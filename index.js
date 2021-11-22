@@ -1,12 +1,3 @@
-const login = function login() {
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
-    if (username === "" || password === ""){
-      alert("Bos, login dulu ya....\nTerserah mau masukin apa saja")
-    }else{
-      window.location = "index.html";
-    }
-  };
 
 
 class Welcome{
